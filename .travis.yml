@@ -5,7 +5,7 @@ matrix:
   include:
   - os: linux
     dist: trusty
-    sudo: required # for dpkg --add-architecture locking
+    sudo: required
     env:
       - ARCH=armhf
 
