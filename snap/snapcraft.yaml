@@ -13,6 +13,8 @@ confinement: devmode
 apps:
   tmux:
     command: bin/tmux
+    plugs:
+      - home
 
 parts:
   tmux:
